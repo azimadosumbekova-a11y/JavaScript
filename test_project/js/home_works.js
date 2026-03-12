@@ -56,6 +56,9 @@ const startBtn = document.querySelector("#start");
 const stopBtn = document.querySelector("#stop");
 const resetBtn = document.querySelector("#reset");
 
+
+
+
 seconds = 0
 interval = null
 
