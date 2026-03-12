@@ -1,17 +1,17 @@
 [
   {
-    "name": "",
-    "age": 0,
-    "photo": "url"
+    "name": "Naruto Uzumaki",
+    "age": 17,
+    "person_photo": "https://www.jfabrics.cz/media/cache/original/5a3d1c893fce362.jpg"
   },
   {
-    "name": "",
-    "age": 0,
-    "photo": "url"
+    "name": "Sakura Haruno",
+    "age": 17,
+    "person_photo": "https://static.wikitide.net/deathbattlewiki/7/7d/Portrait.sakuraharuno.png"
   },
   {
-    "name": "",
-    "age": 0,
-    "photo": "url"
+    "name": "Sasuke Uchiha",
+    "age": 17,
+    "person_photo": "https://www.cbr.com/sasuke-uchiha-dragon-ball-one-piece/"
   }
 ]

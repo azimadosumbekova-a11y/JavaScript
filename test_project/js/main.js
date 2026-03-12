@@ -75,3 +75,14 @@ prev.onclick = () => {
 }
 
 autoSlider(index)
+
+
+// const obj = {
+//     "name": "Naruto Uzumaki",
+//      "age": 17,
+// }
+
+// const stringifiedText = JSON.stringify(obj)
+// console.log(obj);
+
+// const parsedText = JSON.parse(stringifiedText)  

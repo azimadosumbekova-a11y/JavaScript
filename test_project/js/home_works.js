@@ -69,3 +69,43 @@ startBtn.addEventListener('click', () => {
 
     }
 } )
+
+
+
+
+const  request = new XMLHttpRequest();
+
+ request.open("GET", "../data/characters.json"); 
+
+ request.onload = () => {
+    const characters = JSON.parse(request.response);
+
+    const container = document.querySelector(".characters-list")
+
+    characters.forEach((character) => {
+        const card = document.createElement("div")
+        card.classList.add("card")
+
+        card.innerHTML = `<img src ="${character.person_photo}" alt="naruto"> 
+         <h3>${character.name}</h3>
+        <p>age: ${character.age}</p> `;
+        
+        container.append(card)
+
+    })
+ }
+ request.send();
+ 
+
+
+
+const bioRequest = new XMLHttpRequest();
+
+bioRequest.open("GET", "../data/bio.json");
+
+bioRequest.onload = () => {
+    const bio = JSON.parse(bioRequest.response);
+    console.log(bio);
+};
+
+bioRequest.send();
